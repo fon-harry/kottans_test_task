@@ -1,0 +1,16 @@
+<form name = "data" method="post" action="/messages/save">
+  <p>
+    <h1>Enter your message:</h1>
+    <textarea name="message" cols="40" rows="3"></textarea>
+  </p>
+  <p>
+    <input type="radio" name="destruct_type" value="visit" checked> Destroy message after
+    <input type="text" name="visits" value="1" size="1"> visits <br>
+    <input type="radio" name="destruct_type" value="time"> Destroy message after
+    <input type="text" name="hours" value="1" size="1"> hour <br>
+  </p>
+  <p>
+    <input type="submit" value="Create">
+    <input type="reset" value="Clear">
+  </p>
+</form>
